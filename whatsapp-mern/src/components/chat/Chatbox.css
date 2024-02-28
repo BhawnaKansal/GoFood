@@ -1,0 +1,82 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+}
+.chats_header{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 1.2vw;
+    border: 0.14vw solid lightgrey;
+}
+.header_profile{
+    flex: 1;
+    padding-left: 2vw;
+}
+.header_profile > h3{
+    font-weight: 500;
+    margin-bottom: 0.25vw;
+}
+.header_profile > p{
+    color: grey;
+}
+.chatBody{
+    flex: 1;
+    background-image: url("../../backgroundChat.webp");
+    background-repeat: repeat;
+    background-position: center;
+    padding: 2vw;
+    overflow: scroll;
+}
+.chat_message{
+    position: relative;
+    font-size: 1vw;
+    padding: 0.5vw;
+    width: fit-content;
+    border-radius: 1vw;
+    background-color: #ffff;
+    margin-bottom: 2vw;    
+}
+.chatTime{
+    margin-left: 0.4vw;
+    font-size: xx-small;
+}
+.chatName{
+    position:absolute;
+    font-weight: 800;
+    font-size: small;
+    top: -1.2vw;
+}
+.chat_reciever{
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+.chatFooter{
+    display: flex;
+    background-color:  #ededed;
+    padding: 0.5vw;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.14vw solid lightgrey;
+}
+.chatFooter >form{
+    flex: 1;
+    display: flex;
+}
+.chatFooter >form>input{
+    flex: 1;
+    border-radius: 1vw;
+    padding: 1vw;
+    border: none;
+    outline-width: 0;
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+}
+.chatFooter >form>button{
+    display: none;
+}
+.chatFooter > .MuiSvgIcon-root{
+    color: grey;
+    padding: 0.5vw  ;
+}
